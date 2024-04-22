@@ -5,8 +5,6 @@ Objetivo do projeto é executar um ambiente interligando 2 aplicações:
 * **app-python**: É uma página web que contém um formulario. Quando o formulário é submetido a aplicação enfilera a mensagem na fila do RabbitMQ
 * **app-node**: É uma worker que consume da fila do RabbitMQ e armazena as mensagens no MySQL
 
-* **OBS:** agora a aplica��o app-python e a app-node exp�e métricas
-
 ### Solução com Docker Compose
 
 A Solução foi implementada em 3 Etapas:
